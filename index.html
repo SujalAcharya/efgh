@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EFGH Band</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">EFGH</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Music</a></li>
+          <li><a href="#projects">Members</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">EFGH</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Music</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Members</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, We are</p>
+        <h1 class="title">EFGH</h1>
+        <p class="section__text__p2">Band</p>
+        <div class="btn-container">
+          <div class="contact-info-container">
+            <img
+              src="youtube.png"
+              alt="Youtube icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.youtube.com/@suzal_/">Youtube</a></p>
+          </div>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="instagram.png"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/suzal_cs/'"
+          />
+          <img
+            src="facebook.png"
+            alt="My facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/Suzal227/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1"></p>
+      <h1 class="title">About Us</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="about-pic.JPG"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="member icon"
+                class="icon"
+              />
+              <h3>Members</h3>
+              <p>Sujal Acharya<br />Krish Shrestha<br />Suzan Shrestha<br />Kshitiz Lamichhane</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Played</h3>
+              <p>Nepal Academy Hall(RTX)<br />Purple Haze<br />Sangit Pathsala<br />Radius Music</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Meet EFGH, a powerhouse rock band formed since 2021, blending raw energy with melodic finesse,
+                quickly rising to prominence in the music scene.
+                With floor shakening beats, searing guitar riffs and soulful vocals, their electrifying performances are
+                leaving an indelible mark on the contemporary rock landscape.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore Our</p>
+      <h1 class="title">Music</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Pinjada Ko Suga</h2>
+            <div class="article-container">
+              <iframe src="https://www.youtube.com/embed/bo-JQIIboFw?rel=0&color=white" width="560" height="315" title="Pinjada ko Suga | 1974 AD | Cover by EFGH Band | Sujal Acharya" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Kaha Hola Ghar Bara</h2>
+            <div class="article-container">
+              <iframe src="https://www.youtube.com/embed/lZEzk6MhR3Y?rel=0&color=white" width="560" height="315" title="Kaha hola Ghar bara | Karma Band | Cover by EFGH Band | Sujal Acharya" frameborder="0" allowfullscreen></iframe>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">More About Us:</p>
+      <h1 class="title">Members</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Sujal Acharya</h2>
+            <div class="btn-container">
+              <div class="contact-info-container">
+                <img
+                  src="instagram.png"
+                  alt="instagram icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.instagram.com/suzal_cs/">Instagram</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="facebook.png"
+                  alt="facebook icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.facebook.com/Suzal227/">Facebook</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-2.JPG"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Suzan Shrestha</h2>
+            <div class="btn-container">
+              <div class="contact-info-container">
+                <img
+                  src="instagram.png"
+                  alt="instagram icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.instagram.com/suzanshresthaaa/">Instagram</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="facebook.png"
+                  alt="facebook icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.facebook.com/suzaaneeee">Facebook</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Kshitiz lamichhane</h2>
+            <div class="btn-container">
+              <div class="contact-info-container">
+                <img
+                  src="instagram.png"
+                  alt="instagram icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.instagram.com/xetez_/">Instagram</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="facebook.png"
+                  alt="facebook icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.facebook.com/FreckledChild7">Facebook</a></p>
+              </div>
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.facebook.com/FreckledChild7'"
+              >
+                Facebook
+              </button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sujalacharya227@gmail.com">into@efgh.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="instagram.png"
+            alt="instagram icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.instagram.com/suzal_cs/">Instagram</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Music</a></li>
+            <li><a href="#projects">Members</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sujal Acharya. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
